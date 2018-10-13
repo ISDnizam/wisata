@@ -1,0 +1,1386 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	background: url("http://nz-store.org/skripsiku/assets/home/bg.jpg") fixed no-repeat 0% 0% / 100% 100%; -ms-overflow-x: hidden;
+}
+body.inmap {
+	transition:0.3s; overflow: hidden;
+}
+a {
+	transition:0.3s; color: rgb(33, 141, 234); text-decoration: none;
+}
+a:hover {
+	transition:0.3s; color: rgb(51, 51, 51); text-decoration: none;
+}
+.to_left {
+	transition:0.3s; left: 250px;
+}
+.inn.to_left {
+	transition:0.3s; left: 250px; margin-left: 0px; position: relative;
+}
+.fixed_w {
+	margin: 0px auto; max-width: 1140px;
+}
+.fixed_w h2 {
+	color: rgb(25, 26, 34); font-size: 36px; margin-bottom: 58px;
+}
+.all_cont {
+	transition:0.3s; position: relative;
+}
+.sidebar {
+	background: rgba(0, 0, 0, 0.2); padding: 0px; position: relative; min-height: 100%;
+}
+.contant {
+	display: table;
+}
+.contant .row {
+	display: table-row;
+}
+.contant .row [class*='col-'] {
+	vertical-align: top; float: none; display: table-cell;
+}
+.page_info {
+	padding: 90px 15px 60px;
+}
+.page_info img {
+	border-radius: 3px; width: 100px; margin-right: 20px; float: left;
+}
+.page_info ul {
+	
+}
+.page_info ul li {
+	list-style: none; margin-right: 15px; margin-bottom: 30px; display: inline-block;
+}
+.page_info ul li a {
+	color: rgb(131, 188, 237);
+}
+.page_info ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+.page_info h1 {
+	color: rgb(255, 255, 255); padding-top: 10px; font-size: 40px; font-weight: 100;
+}
+.page_info .status {
+	color: rgb(255, 255, 255);
+}
+.page_info .lead {
+	width: 70%; color: rgb(255, 255, 255);
+}
+body.inner_page {
+	background: rgb(15, 106, 184);
+}
+body.inner_page .bg_parallax {
+	background: url("http://nz-store.org/skripsiku/assets/home/bg.jpg") fixed no-repeat;
+}
+.inner_page .header {
+	box-shadow: none;
+}
+.pushy .profile {
+	background: rgb(12, 93, 163); margin: -40px 0px -50px; padding: 40px 0px 50px;
+}
+.indexpage .logo {
+	margin-left: 50px;
+}
+.indexpage .menu-btn {
+	top: 25px; color: rgb(36, 42, 51);
+}
+.indexpage .menu-btn:hover {
+	top: 25px;
+}
+.pushy .profile .avatar {
+	background: rgb(12, 93, 163); margin: 40px auto 0px; border-radius: 100px; width: 110px; height: 110px; position: relative;
+}
+.pushy .profile h3 {
+	text-align: center;
+}
+.pushy .profile h3 a {
+	color: rgb(255, 255, 255); font-size: 20px; font-weight: 300;
+}
+.pushy .profile h3 a:hover {
+	color: rgb(3, 170, 172); text-decoration: none;
+}
+.pushy .profile .log_btn {
+	margin: 20px auto; padding: 8px; border-radius: 3px; border: 2px solid rgb(255, 255, 255); border-image: none; width: 100px; text-align: center; color: rgb(255, 255, 255); display: block;
+}
+.pushy .profile .log_btn:hover {
+	border: 2px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255); text-decoration: none;
+}
+.pushy .profile .avatar img {
+	padding: 6px; border-radius: 100px; border: 2px solid rgb(255, 255, 255); border-image: none; width: 110px; display: block;
+}
+.pushy .profile .avatar span {
+	background: rgb(255, 255, 255); padding: 5px 11px; border-radius: 100px; top: 80px; width: 30px; height: 30px; right: 0px; color: rgb(12, 93, 163); font-weight: 500; display: block; position: absolute;
+}
+.pushy .side_menu {
+	margin: 50px 0px; padding: 0px;
+}
+.pushy .side_menu li {
+	list-style: none; margin-bottom: 0px; display: block;
+}
+.pushy .side_menu li a {
+	color: rgb(255, 255, 255); margin-bottom: -1px; border-top-color: rgb(12, 93, 163); border-bottom-color: rgb(12, 93, 163); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: block;
+}
+.pushy .side_menu li a span {
+	padding: 12px 20px;
+}
+.pushy .side_menu li a i {
+	background: rgb(12, 93, 163); padding: 12px; transition:0.3s; text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-right: 16px; display: inline-block; min-width: 40px;
+}
+.pushy .side_menu li a:hover i {
+	background: rgb(3, 170, 172); padding: 12px; transition:0.3s; text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-right: 16px; display: inline-block; min-width: 40px;
+}
+.pushy .side_menu li a:hover {
+	background: rgb(255, 255, 255); color: rgb(12, 93, 163); text-decoration: none;
+}
+.promo {
+	background: rgb(1, 18, 34); -ms-overflow-x: hidden;
+}
+.top_promo_block {
+	background: url("http://nz-store.org/skripsiku/assets/home/bg.jpg") center; width: 100%; position: relative;
+}
+.top_promo_block .bg_img {
+	background: url("http://nz-store.org/skripsiku/assets/home/bg2.png") no-repeat center / cover; width: 100%; height: 100%;
+}
+.header_promo {
+	margin-top: 36px;
+}
+.header_promo a {
+	padding: 10px 40px; border-radius: 3px; border: 2px solid currentColor; border-image: none; color: rgb(255, 255, 255); font-size: 15px; float: right;
+}
+.header_promo a:hover {
+	color: rgb(231, 57, 49);
+}
+.search_promo {
+	margin: 40px auto; max-width: 900px;
+}
+.search_promo input {
+	padding: 0px 20px; border-radius: 3px; border: 0px currentColor; border-image: none; height: 55px; color: rgb(140, 140, 140); font-size: 18px; font-weight: 300;
+}
+.search_promo input:focus {
+	box-shadow: none;
+}
+.btn_cat button:focus {
+	box-shadow: none;
+}
+.btn_promo_search button:focus {
+	box-shadow: none;
+}
+.input-group-btn {
+	box-shadow: none;
+}
+.search_promo .btn_cat button span {
+	padding: 10px 0px; color: rgb(50, 47, 68); overflow: hidden; font-size: 16px; display: block;
+}
+.search_promo .btn_cat button span .caret {
+	padding: 0px; top: 14px; right: 15px; float: none !important; display: block; position: absolute;
+}
+.btn_cat {
+	width: 200px;
+}
+.btn_cat button {
+	background: rgb(255, 255, 255); padding: 0px 20px 0px 10px; border-radius: 0px 3px 3px 0px; width: 100%; height: 55px; text-align: left; color: rgb(50, 47, 68); font-size: 15px; font-weight: 300; border-left-color: rgb(229, 229, 229); border-left-width: 1px; border-left-style: solid; display: block; box-shadow: none;
+}
+.btn_cat button i {
+	color: rgb(50, 47, 68); padding-right: 10px; font-size: 16px;
+}
+.btn_cat button:hover {
+	background: rgb(242, 242, 242); color: rgb(91, 91, 91); border-left-color: rgb(242, 242, 242); border-left-width: 1px; border-left-style: solid; border-bottom-right-radius: 3px;
+}
+.open.btn_cat button.dropdown-toggle i {
+	color: rgb(255, 255, 255);
+}
+.open.btn_cat button.dropdown-toggle .caret {
+	color: rgb(255, 255, 255);
+}
+.btn_cat button .caret {
+	color: rgb(50, 47, 68); margin-top: 12px; float: right;
+}
+.btn_promo_search {
+	
+}
+.btn_promo_search button {
+	padding: 0px 50px; border-radius: 3px !important; height: 55px; font-size: 18px; margin-left: 30px !important;
+}
+.scroll_block {
+	width: 100%; height: 100px; bottom: 0px; position: absolute; z-index: 9;
+}
+.scroll_block img {
+	margin: 20px auto; display: block; -vendor-animation-iteration-count: 2;
+}
+.start_descrition {
+	left: 50%; top: 50%; width: 1200px; text-align: center; margin-top: -180px; margin-left: -600px; white-space: normal; position: absolute; z-index: 9;
+}
+.start_descrition h1 {
+	color: rgb(255, 255, 255); text-transform: uppercase; font-family: "Roboto", sans-serif; font-size: 50px; font-weight: 300;
+}
+.start_descrition h1 span {
+	background: rgb(71, 165, 245); margin: 40px auto; width: 150px; height: 1px; display: block;
+}
+.start_descrition span {
+	color: rgb(255, 255, 255); line-height: 36px; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 100;
+}
+.place_dd {
+	background: rgb(71, 165, 245); border: 0px currentColor; border-image: none; width: 200px; height: 200px; overflow: hidden; margin-top: -1px; -ms-overflow-y: scroll; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.place_dd li {
+	
+}
+.place_dd li a {
+	padding: 10px 15px; color: rgb(255, 255, 255); font-size: 15px; font-weight: 300;
+}
+.place_dd li a i {
+	color: rgb(255, 255, 255); margin-right: 15px;
+}
+.place_dd li a:hover {
+	background: rgb(255, 255, 255); color: rgb(71, 165, 245);
+}
+.place_dd li a:hover i {
+	color: rgb(71, 165, 245);
+}
+.fea_block {
+	background: rgb(255, 255, 255); padding: 110px 0px 48px;
+}
+.fea_block .fea_item {
+	margin-bottom: 62px;
+}
+.fea_block .fea_item h3 {
+	color: rgb(51, 36, 74); font-size: 18px; font-weight: 500; margin-bottom: 20px;
+}
+.fea_block .fea_item h3 i {
+	color: rgb(33, 141, 234); font-size: 32px; margin-top: -5px; margin-right: 10px; float: left; display: block;
+}
+.fea_block .fea_item span {
+	color: rgb(51, 51, 51); line-height: 24px; font-size: 15px; font-weight: 300;
+}
+.boxedcontainer {
+	margin: auto; padding: 0px 30px; max-width: 1170px;
+}
+.tp-banner-container {
+	padding: 0px; width: 100%; position: relative;
+}
+.tp-banner {
+	width: 100%; position: relative;
+}
+.tp-banner-fullscreen-container {
+	padding: 0px; width: 100%; position: relative;
+}
+.sl_descrition {
+	text-align: center; white-space: normal; max-width: 800px;
+}
+.sl_descrition span {
+	color: rgb(255, 255, 255); font-size: 22px;
+}
+.sl_descrition h1 {
+	color: rgb(255, 255, 255); font-size: 60px;
+}
+.sl_descrition h1 span {
+	background: rgb(33, 141, 234); margin: 30px auto; width: 120px; height: 1px; display: block;
+}
+.sl_descrition .btns a {
+	padding: 10px 40px; color: rgb(255, 255, 255); font-size: 18px; margin-top: 30px;
+}
+.right.sl_descrition {
+	text-align: left;
+}
+.right.sl_descrition h1 {
+	
+}
+.right.sl_descrition img {
+	margin-top: 30px; display: block;
+}
+.right.sl_descrition h1 span {
+	margin: 30px 0px;
+}
+.right.sl_descrition .btns {
+	
+}
+.top.sl_descrition {
+	margin-top: 100px;
+}
+.top.sl_descrition h1 {
+	
+}
+.top.sl_descrition h1 b {
+	color: rgb(33, 141, 234);
+}
+.top.sl_descrition h1 span {
+	
+}
+.top.sl_descrition .btns {
+	
+}
+.categori_block {
+	padding: 110px 0px; background-image: url("http://nz-store.org/skripsiku/assets/home/houses.png"); background-repeat: repeat-x; background-color: rgb(255, 255, 255);
+}
+.categori_block .cat_item {
+	
+}
+.categori_block .cat_item div {
+	background: rgb(255, 255, 255); padding: 35px 10px; border-radius: 3px; border: 1px solid rgb(207, 221, 230); transition:0.3s; border-image: none; margin-bottom: 35px; box-shadow: 0px 1px 1px rgba(0,0,0,0.06);
+}
+.categori_block .cat_item div i {
+	transition:0.3s; text-align: center; color: rgb(207, 221, 230); font-size: 32px; display: block;
+}
+.categori_block .cat_item div h4 {
+	transition:0.3s; text-align: center; color: rgb(33, 141, 234); font-size: 18px; font-weight: 500; margin-top: 10px; display: block;
+}
+.va {
+	margin: 0px auto; padding: 14px; width: 160px; text-align: center; display: block;
+}
+.categori_block .cat_item div:hover {
+	background: rgb(33, 141, 234); border-color: rgb(31, 121, 199); transition:0.3s; cursor: pointer; box-shadow: none;
+}
+.categori_block .cat_item div:hover i {
+	transition:0.3s; color: rgb(255, 255, 255);
+}
+.categori_block .cat_item div:hover h4 {
+	transition:0.3s; color: rgb(255, 255, 255);
+}
+.map_block {
+	padding: 0px; position: relative;
+}
+.map_block .index_map {
+	width: 100%; height: 700px;
+}
+.map_block .map_descr {
+	background: rgba(33, 141, 234, 0.9); top: 0px; width: 100%; position: absolute; z-index: 9;
+}
+.map_block .map_descr span {
+	margin: 0px auto; padding: 40px 0px; text-align: center; color: rgb(255, 255, 255); font-size: 36px; font-weight: 200; display: block; max-width: 1110px;
+}
+.map_block .map_descr span a {
+	padding: 12px 30px; border-radius: 3px; border: 2px solid currentColor; border-image: none; color: rgb(255, 255, 255); font-size: 16px; margin-left: 30px; display: inline-block;
+}
+.map_block .map_descr span a:hover {
+	color: rgb(231, 57, 49);
+}
+.user_block {
+	background: rgb(255, 255, 255); padding: 110px 0px;
+}
+.user_cover {
+	margin-bottom: 40px;
+}
+.user_block .user_item {
+	border-radius: 3px; height: 263px; overflow: hidden; position: relative; box-shadow: 0px 1px 1px rgba(0,0,0,0.08);
+}
+.user_block .user_item .user_item_cont {
+	background: rgb(255, 255, 255); width: 100%; bottom: 0px; border-right-color: rgb(228, 228, 228); border-bottom-color: rgb(228, 228, 228); border-left-color: rgb(228, 228, 228); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute; min-height: 150px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;
+}
+.user_block .user_item .user_item_cont img {
+	border-radius: 100px; border: 6px solid rgb(255, 255, 255); border-image: none; left: -50px; top: -50px; width: 100px; margin-left: 50%; display: block; position: absolute;
+}
+.user_block .user_item .user_item_cont a.names {
+	text-align: center; font-size: 22px; font-weight: 300; margin-top: 60px; display: block;
+}
+.user_block .user_item .bottom_link {
+	background: rgb(255, 255, 255); width: 100%; bottom: 0px; position: absolute;
+}
+.user_block .user_item .bottom_link ul {
+	padding: 0px;
+}
+.user_block .user_item .bottom_link ul li {
+	list-style: none; width: 25%; text-align: center; border-top-color: rgb(228, 228, 228); border-right-color: rgb(228, 228, 228); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; float: left; display: block;
+}
+.user_block .user_item .bottom_link ul li.last {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.user_block .user_item .bottom_link ul li a {
+	padding: 6px 0px; color: rgb(205, 205, 205); display: block;
+}
+.user_block .user_item .bottom_link ul li a:hover {
+	background: rgb(244, 244, 244); color: rgb(51, 51, 51);
+}
+.user_block .user_item .bottom_link ul li a i {
+	padding-right: 5px; font-size: 12px;
+}
+.user_block .user_item .blurbg {
+	border-radius: 3px; transition:0.3s; width: 100%;
+}
+.user_sm {
+	position: relative;
+}
+.user_num {
+	background: rgb(255, 255, 255); border-radius: 100px; left: 50%; width: 35px; height: 35px; text-align: center; bottom: -16px; color: rgb(255, 156, 0); padding-top: 8px; font-size: 14px; margin-left: -18px; position: absolute; z-index: 2;
+}
+.user_go {
+	background: rgba(33, 141, 234, 0.85); padding: 10px 26px; border-radius: 3px; transition:0.3s; width: 100%; height: 100%; bottom: -150%; color: rgb(255, 255, 255); font-size: 20px; position: absolute;
+}
+.user_go i {
+	margin: 5px auto; width: 20px; display: block;
+}
+.user_sm img {
+	border-radius: 3px; width: 100%;
+}
+.min_u_hover {
+	overflow: hidden; position: relative;
+}
+.min_u_hover:hover .user_go {
+	transition:0.3s; bottom: 0px;
+}
+.min_u_hover:hover {
+	cursor: pointer;
+}
+.fb_btn {
+	background: none; padding: 6px 11px; border-radius: 60px; top: 20px; width: 35px; height: 35px; right: 20px; color: rgb(255, 255, 255); font-size: 16px; display: block; position: absolute; text-shadow: 0px 0px 3px #000000;
+}
+.fb_btn:hover {
+	background: rgb(1, 68, 144); color: rgb(255, 255, 255); text-shadow: none;
+}
+.user_item:hover .blurbg {
+	transition:0.3s; width: 110%;
+}
+.promo_block {
+	background: rgb(29, 20, 43); padding: 110px 0px; overflow: hidden; position: relative;
+}
+.promka {
+	position: relative; z-index: 9;
+}
+.promo_block .anim_bg {
+	background: url("http://nz-store.org/skripsiku/assets/home/promo_bg.jpg"); left: 0px; top: 0px; width: 100%; height: 3000px; position: absolute; -webkit-animation: cloud_one 50s linear infinite; -o-animation: cloud_one 50s linear infinite; -webkit-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); -moz-animation: cloud_one 50s linear infinite; -moz-transform: translate3d(0, 0, 0);
+}
+.promo_block img {
+	margin: 0px auto 40px; display: block;
+}
+.promo_block span {
+	margin: 0px auto; text-align: center; color: rgb(33, 141, 234); line-height: 60px; font-size: 36px; font-weight: 100; display: block; max-width: 900px;
+}
+.places_index_block {
+	background: rgb(255, 255, 255); padding: 110px 0px;
+}
+.place_index_item {
+	margin-bottom: 40px;
+}
+.place_index_item .place_inn {
+	
+}
+.pl_descr {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(228, 228, 228) rgb(228, 228, 228); padding: 25px; border-image: none; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: 0px 1px 2px rgba(0,0,0,0.07);
+}
+.pl_descr a {
+	font-size: 18px; margin-bottom: 10px; display: block;
+}
+.pl_descr span {
+	line-height: 24px; font-size: 15px; font-weight: 300;
+}
+.pl_descr .rate {
+	padding: 0px; margin-top: 15px; margin-bottom: 0px;
+}
+.pl_descr .rate li {
+	list-style: none; color: rgb(255, 203, 0); padding-right: 2px; display: inline-block;
+}
+.pl_descr .rate li i {
+	
+}
+.pl_descr .rate li i.no {
+	color: rgb(218, 218, 218);
+}
+.pl_descr .rate li i:hover {
+	color: rgb(255, 145, 0); cursor: pointer;
+}
+.place_inn img {
+	width: 100%;
+}
+.map {
+	width: 100%; height: 100%; position: fixed !important;
+}
+.menu {
+	background: rgba(33, 173, 234, 0.9); margin: 0px; padding: 0px; width: 100%; bottom: 0px; overflow: hidden; position: absolute; z-index: 9; max-height: 65px;
+}
+.mobile.menu #close_menu {
+	display: none;
+}
+.menu ul {
+	margin: 0px auto; padding: 0px; text-align: center; max-width: 1190px;
+}
+.menu li {
+	list-style: none; margin: 0px -2px; padding: 0px; width: 10%; display: inline-block;
+}
+.menu li a {
+	padding: 11px 0px; transition:0.3s; text-align: center; color: rgba(255, 255, 255, 1); font-size: 26px; font-weight: normal; text-decoration: none; display: block;
+}
+.menu ul li a span {
+	
+}
+.menu li a:hover {
+	background: rgb(255, 255, 255); transition:0.3s; color: rgb(33, 141, 234);
+}
+.menu li a:focus {
+	background: rgb(255, 255, 255); transition:0.3s; color: rgb(33, 141, 234);
+}
+.menu.container-fluid span {
+	display: none;
+}
+.menu.container-fluid .icon-remove {
+	display: none;
+}
+.menu.container-fluid .mobile_menu {
+	display: none;
+}
+.marker_info .info {
+	background: rgba(0, 127, 237, 0.8); border-radius: 5px; width: 300px; height: 320px; position: relative; z-index: 9999999;
+}
+.marker_info .info img {
+	background: rgb(255, 255, 255); border-radius: 100px; border: 7px solid rgb(233, 229, 219); border-image: none; left: 90px; top: -53px; width: 110px; display: block; position: absolute;
+}
+.marker_info .info a {
+	background: rgb(255, 255, 255); border: 0px currentColor; transition:0.3s; border-image: none; color: rgb(33, 141, 234);
+}
+.marker_info .info a:hover {
+	background: rgb(36, 42, 51); border: 0px currentColor; transition:0.3s; border-image: none; color: rgb(33, 141, 234);
+}
+.marker_info .info h2 {
+	text-align: center; color: rgb(255, 255, 255); padding-top: 70px; font-family: "Roboto", sans-serif; font-weight: 300;
+}
+.marker_info .info h2 span {
+	background: rgb(255, 255, 255); margin: 15px auto; width: 70px; height: 1px; display: block;
+}
+.marker_info .info span {
+	padding: 0px 30px; text-align: center; color: rgb(255, 255, 255); line-height: 22px; font-family: "Roboto", sans-serif; font-size: 14px; font-weight: 300; display: block;
+}
+.marker_info .info a {
+	
+}
+a.green_btn {
+	background: rgb(231, 57, 49); padding: 10px 50px; border-radius: 4px; border: 1px solid rgb(0, 0, 0); transition:0.3s; border-image: none; left: 60px; width: 180px; text-align: center; bottom: 40px; color: rgb(255, 255, 255); font-size: 14px; display: block; position: absolute;
+}
+a.green_btn:hover {
+	background: rgb(255, 255, 255); padding: 10px 50px; border-radius: 4px; border: 1px solid rgb(0, 0, 0); border-image: none; left: 60px; width: 180px; text-align: center; bottom: 40px; color: rgb(231, 57, 49); font-size: 14px; text-decoration: none; display: block; position: absolute; box-shadow: none;
+}
+.marker_info .arrow {
+	border-width: 14px; border-style: solid; border-color: rgba(255, 0, 0, 0) rgba(33, 141, 234, 0.9) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0); padding: 0px !important; border-image: none; left: -28px; top: 150px !important; width: 0px; height: 0px; position: absolute;
+}
+.header {
+	background: rgb(33, 141, 234); transition:0.3s; width: 100%; height: 50px; border-bottom-color: rgb(19, 103, 176); border-bottom-width: 1px; border-bottom-style: solid; position: fixed; z-index: 9; box-shadow: 0px 1px 0px rgba(255,255,255,0.59);
+}
+.header:hover {
+	background: rgb(19, 103, 176); transition:0.3s;
+}
+.open_side {
+	padding: 28px 10px 0px 20px; transition:0.3s; font-size: 21px; float: left;
+}
+.open_side:hover {
+	padding: 28px 10px 0px 20px; transition:0.3s; color: rgb(3, 170, 172); font-size: 21px; float: left; cursor: pointer;
+}
+.header .logo {
+	padding: 15px 30px 0px 0px; float: left; display: block;
+}
+.header .search {
+	background: rgb(255, 255, 255); margin: 8px 0px 8px 30px; padding: 0px 10px; border-radius: 3px; border: 1px solid rgba(25, 122, 207, 1); border-image: none; width: 100%; height: 33px; font-size: 13px; font-style: italic; float: right; max-width: 400px; box-shadow: 0px 0px 2px rgba(18,99,169,1);
+}
+.green_btn_header {
+	background: rgb(32, 32, 32); margin: 9px; padding: 6px 50px; border-radius: 4px; transition:0.3s; width: 180px; text-align: center; color: rgb(255, 255, 255); font-size: 14px; float: right; display: block;
+}
+.green_btn_header:hover {
+	background: rgb(255, 255, 255); margin: 9px; padding: 6px 50px; border-radius: 4px; transition:0.3s; width: 180px; text-align: center; color: rgb(33, 141, 234); font-size: 14px; text-decoration: none; float: right; display: block;
+}
+.inner_head .menu-btn {
+	top: 5px; color: rgb(255, 255, 255);
+}
+.inner_head .menu-btn:hover {
+	background: none; top: 5px; color: rgb(32, 32, 32);
+}
+.innerpage .menu-btn {
+	top: 5px; color: rgb(255, 255, 255);
+}
+.innerpage .menu-btn:hover {
+	background: none; top: 5px; color: rgb(32, 32, 32);
+}
+.add_place {
+	background: rgba(16, 7, 29, 0.72); transition:0.3s linear; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 999999999;
+}
+.place_form {
+	background: rgb(255, 255, 255); margin: -265px auto 0px; border-radius: 4px; top: 50%; width: 300px; height: 480px; position: relative;
+}
+.place_form h3 {
+	padding: 20px 0px; text-align: center; font-weight: 300; display: block;
+}
+.place_form h3 span {
+	background: rgb(231, 57, 49); margin: 20px auto -16px; width: 60px; height: 1px; display: block;
+}
+.place_form label {
+	margin: 20px 0px; padding: 0px 30px; text-transform: uppercase; font-size: 11px; display: block;
+}
+.place_form label input {
+	background: rgb(249, 249, 249); padding: 0px 20px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 100%; height: 40px; font-size: 16px; font-weight: 300; margin-top: 10px; display: block;
+}
+.place_form label input:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgb(124, 203, 24); border-image: none; color: rgb(124, 203, 24); font-size: 16px; font-weight: 300;
+}
+.place_form label select {
+	width: 100%; height: 30px; margin-top: 10px; display: block;
+}
+.place_form a {
+	margin: 18px 0px 0px; padding: 20px; width: 100%; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.place_form a:hover {
+	margin: 18px 0px 0px; padding: 20px; width: 100%; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.login_form {
+	height: 400px;
+}
+.login_form a i {
+	padding: 0px 10px 0px 0px;
+}
+.login_form a {
+	margin: 10px 30px; padding: 10px; border-radius: 3px; width: 240px;
+}
+.login_form a:hover {
+	margin: 10px 30px; padding: 10px; border-radius: 3px; width: 240px;
+}
+.none {
+	transition:0.3s linear; top: -150%;
+}
+.close_window {
+	top: -20px; right: -20px; color: rgb(255, 255, 255); display: block; position: absolute; cursor: pointer;
+}
+.close_window:hover {
+	color: rgb(229, 22, 22);
+}
+.contant {
+	
+}
+.contant .basic {
+	background: rgb(255, 255, 255); padding: 0px; position: relative; min-height: 100%;
+}
+.dark_bg {
+	background: rgba(0, 0, 0, 0.85); width: 100%; height: 100%; position: fixed;
+}
+.head {
+	background: rgb(255, 255, 255); padding: 20px 30px 30px;
+}
+.head .logo {
+	
+}
+.head .search {
+	background: rgb(255, 255, 255); margin: 0px 30px; padding: 0px 10px; border-radius: 3px; border: 1px solid rgba(0, 0, 0, 0.3); border-image: none; width: 100%; height: 33px; font-size: 13px; font-style: italic; float: right; max-width: 150px; box-shadow: 0px 0px 2px rgba(0,0,0,0.25);
+}
+.head .green_btn_header {
+	margin: 0px; padding: 6px 0px; text-align: center; max-width: 40px;
+}
+.head .green_btn_header:hover {
+	margin: 0px; padding: 6px 0px; text-align: center; max-width: 40px;
+}
+.menusha {
+	display: none;
+}
+.menusha_open {
+	transition:0.3s; left: 20px; top: 20px; color: rgb(208, 84, 75); font-size: 21px; position: absolute;
+}
+.menusha_open:hover {
+	transition:0.3s; color: rgb(255, 255, 255); cursor: pointer;
+}
+.header_section {
+	background: url("http://nz-store.org/skripsiku/assets/home/c_interior.png") no-repeat 0% 0% / cover; margin: 0px; overflow: hidden; position: relative; min-height: 255px;
+}
+.icon_descr_block {
+	overflow: hidden; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.icon_descr_block .cols {
+	padding: 16px; width: 50%; float: left;
+}
+.icon_descr_block .cols .icons {
+	padding: 20px; width: 30%; float: left; position: relative;
+}
+.icon_descr_block .cols .icons .ic {
+	padding: 18px 24px; border-radius: 150px; border: 2px solid currentColor; border-image: none; width: 76px; height: 76px; font-size: 24px; display: block;
+}
+.icon_descr_block .cols .icons .ic i {
+	
+}
+.icon_descr_block .cols .icons .num {
+	padding: 3px 20px; border-radius: 3px; left: 23px; width: 70px; bottom: 8px; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; display: block; position: absolute;
+}
+.icon_descr_block .bubble {
+	width: 50%; float: left;
+}
+.icon_descr_block .bubble div {
+	background: rgb(243, 243, 243); margin: 30px; padding: 15px; border-radius: 3px; color: rgb(90, 90, 90); line-height: 24px; font-weight: 300; position: relative;
+}
+.icon_descr_block .bubble div span {
+	border-width: 10px; border-style: solid; border-color: rgba(0, 0, 0, 0) rgb(243, 243, 243) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); border-image: none; left: -20px; top: 42px; width: 0px; height: 0px; position: absolute;
+}
+.id_blue .num {
+	background: rgb(69, 195, 232);
+}
+.id_green .num {
+	background: rgb(151, 201, 0);
+}
+.id_orange .num {
+	background: rgb(255, 87, 0);
+}
+.id_blue {
+	color: rgb(69, 195, 232);
+}
+.id_green {
+	color: rgb(151, 201, 0);
+}
+.id_orange {
+	color: rgb(255, 87, 0);
+}
+.phone_email {
+	padding: 14px 30px; overflow: hidden; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid; min-height: 50px;
+}
+.phone_email span {
+	margin: 0px 40px 0px 0px; float: left; display: block;
+}
+.phone_email span i {
+	color: rgb(168, 168, 168); font-size: 13px; margin-right: 12px; display: inline-block;
+}
+.features_block {
+	min-height: 162px;
+}
+.features_block div {
+	width: 50%; float: left;
+}
+.features_block div ul {
+	padding: 20px 30px;
+}
+.features_block div ul li {
+	list-style: none; margin: 13px 0px;
+}
+.features_block div ul li b {
+	
+}
+.share_block {
+	background: rgb(243, 243, 243); min-height: 55px;
+}
+.share_block div {
+	width: 50%; float: left;
+}
+.share_block div a {
+	margin: 10px 30px; display: inline-block;
+}
+.share_block div div {
+	padding: 10px 30px; width: 50%; color: rgb(111, 111, 111); font-size: 13px; float: left;
+}
+.share_block div div span {
+	color: rgb(74, 74, 74); font-weight: bold; display: block;
+}
+.check_in {
+	
+}
+.check_in div {
+	padding: 30px;
+}
+.check_in div a {
+	
+}
+.check_in div a:hover {
+	
+}
+.check_in div .users_group {
+	margin: 0px -10px; padding: 20px 0px;
+}
+.check_in div .users_group a {
+	margin: 0px 10px; overflow: hidden; display: inline-block; position: relative;
+}
+.check_in div .users_group a img {
+	border-radius: 3px; width: 45px;
+}
+.users_group .user_go {
+	padding: 9px 0px; transition:0.3s;
+}
+.flickr_photo h4 {
+	margin-left: 10px;
+}
+.flickr_photo {
+	padding: 0px 20px;
+}
+.flickr_photo ul {
+	margin: 0px; padding: 0px;
+}
+.flickr_photo ul li {
+	list-style: none; margin: 13px; border-radius: 3px; width: 13%; height: 110px; overflow: hidden; display: inline-block;
+}
+.flickr_photo ul li img {
+	transition:0.3s;
+}
+.flickr_photo ul li img:hover {
+	transition:0.3s; opacity: 0.8;
+}
+.reviews {
+	
+}
+.reviews h4 {
+	margin: 0px; padding: 40px 30px 0px; font-size: 16px;
+}
+.reviews .rev {
+	padding: 30px; transition:0.3s; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.reviews .rev .user {
+	margin: 0px 20px 0px 0px; padding-top: 4px; float: left;
+}
+.reviews .rev .user img {
+	border-radius: 3px; width: 45px;
+}
+.reviews .rev .texts {
+	padding-left: 65px;
+}
+.reviews .rev .head_rev {
+	
+}
+.reviews .rev .head_rev span {
+	color: rgb(181, 181, 181); padding-left: 20px; font-size: 13px;
+}
+.reviews .rev .text_rev {
+	color: rgb(96, 96, 96); padding-top: 10px;
+}
+.reviews .rev:hover {
+	background: rgb(250, 250, 250); transition:0.3s;
+}
+.add_comment h4 {
+	padding: 30px 0px;
+}
+.add_comment {
+	padding: 0px 30px 50px;
+}
+.add_comment textarea {
+	background: rgb(241, 241, 241); padding: 15px; border-radius: 3px; border: 0px currentColor; border-image: none; width: 100%; min-height: 100px; resize: vertical;
+}
+.add_comment textarea:focus {
+	
+}
+.add_comment a {
+	margin-top: 15px;
+}
+.map_place {
+	margin: 0px; width: 100%; height: 254px;
+}
+.similar {
+	padding: 0px 20px;
+}
+.similar div {
+	margin: 0px -20px; padding: 16px 20px; color: rgb(255, 255, 255); overflow: auto; border-bottom-color: rgba(0, 69, 123, 1); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.similar a {
+	display: block;
+}
+.similar a:hover {
+	color: rgb(255, 255, 255);
+}
+.similar h3 {
+	padding: 25px 0px 10px; color: rgb(255, 255, 255); font-family: "Roboto", sans-serif; font-weight: 300;
+}
+.similar img {
+	border-radius: 3px; width: 45px; margin-right: 10px; float: left; display: block;
+}
+.similar i {
+	color: rgb(255, 255, 255); padding-right: 5px; font-size: 12px;
+}
+.address {
+	background: rgba(33, 141, 234, 0.9); padding: 18px 24px; top: 75px; width: 320px; height: 100px; right: -310px; color: rgb(255, 255, 255); font-size: 15px; position: absolute; z-index: 2;
+}
+.address span {
+	border-width: 10px; border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(33, 141, 234, 0.9) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); border-image: none; left: -20px; top: 42px; width: 0px; height: 0px; position: absolute;
+}
+.mobile_place {
+	padding: 0px 0px 30px; overflow: auto; display: none;
+}
+.mobile_place .similar {
+	
+}
+.mobile_place .similar div {
+	margin: 1%; border-radius: 3px; border: 1px solid rgb(228, 228, 228); border-image: none; width: 48%; color: rgb(186, 186, 186); float: left;
+}
+.mobile_place .similar a {
+	display: block;
+}
+.mobile_place .similar a:hover {
+	color: rgb(32, 32, 32);
+}
+.mobile_place .similar h3 {
+	margin: 0px; padding: 0px 8px 20px; color: rgb(27, 27, 27);
+}
+.mobile_place .similar img {
+	border-radius: 3px; width: 45px; margin-right: 10px; float: left; display: block;
+}
+.mobile_place .similar i {
+	color: rgb(186, 186, 186);
+}
+.mobile_place .address {
+	background: rgba(231, 57, 49, 1); padding: 15px; border-radius: 1px; left: 0px; color: rgb(255, 255, 255); margin-top: 0px; position: absolute;
+}
+.vp h1 {
+	padding: 0px 30px 30px;
+}
+.map_user_visits {
+	width: 100%; height: 300px;
+}
+.marker_visit {
+	background: rgba(0, 0, 0, 0.83); border-radius: 3px; width: auto; position: fixed;
+}
+.marker_visit .info {
+	padding: 10px 30px;
+}
+.marker_visit .info span {
+	border-width: 8px; border-style: solid; border-color: rgba(255, 0, 0, 0) rgba(0, 0, 0, 0.83) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0); padding: 0px !important; border-image: none; left: -16px; top: 12px !important; width: 0px; height: 0px; position: absolute;
+}
+.marker_visit .info a {
+	font-size: 14px;
+}
+.marker_visit .info a:hover {
+	color: rgb(255, 255, 255); font-size: 14px;
+}
+.user_avatar {
+	margin-top: 100px; position: relative;
+}
+.user_avatar img {
+	border-radius: 3px; width: 100%;
+}
+.user_avatar span {
+	background: rgba(0, 0, 0, 0.71); padding: 8px 15px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); font-family: roboto; font-size: 28px; font-weight: 300; display: block; position: absolute; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;
+}
+.user_friends {
+	padding: 0px 10px; overflow: hidden;
+}
+.user_friends h4 {
+	padding: 20px 10px 0px; color: rgb(255, 255, 255); font-size: 20px;
+}
+.profile_mobile_vis .user_friends h4 {
+	color: rgb(32, 32, 32);
+}
+.users_group {
+	
+}
+.users_group .user_avatars {
+	margin: 10px; width: 45px; overflow: hidden; float: left; display: block; position: relative;
+}
+.users_group .user_avatars img {
+	border-radius: 3px; width: 45px;
+}
+.user_btn {
+	margin: 20px;
+}
+.user_btn a {
+	padding: 10px; margin-bottom: 12px; display: block;
+}
+.profile_mobile_vis {
+	display: none;
+}
+.user_avatars {
+	overflow: hidden; display: block; position: relative;
+}
+.user_avatars img {
+	
+}
+.user_avatars .user_go {
+	transition:0.3s;
+}
+.user_avatars .user_go i {
+	
+}
+.user_avatars:hover .user_go {
+	padding: 8px 0px 0px; transition:0.3s; width: 45px; bottom: 0px; overflow: hidden;
+}
+.user_vis {
+	background: rgb(33, 141, 234); padding: 16px 20px; color: rgb(255, 255, 255);
+}
+.user_vis span {
+	
+}
+.user_vis span i {
+	margin-right: 10px;
+}
+.user_vis div {
+	border-width: 10px; border-style: solid; border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(33, 141, 234); border-image: none; top: 16px; width: 0px; height: 0px; right: -20px; position: absolute; z-index: 9;
+}
+.typo_cont {
+	padding: 30px;
+}
+.typo_cont .typo_head {
+	text-align: center; font-family: roboto; font-weight: 300; margin-top: 100px; margin-bottom: 40px;
+}
+.typo_cont .the-icons {
+	padding: 0px;
+}
+.typo_cont .the-icons li {
+	list-style: none !important; margin: 15px 0px; width: 32%; color: rgb(190, 190, 190); display: inline-block;
+}
+.typo_cont .the-icons li::before {
+	display: none;
+}
+.typo_cont .the-icons li i {
+	color: rgb(149, 200, 0); padding-right: 15px; font-size: 21px; font-weight: 300; margin-top: -5px; float: left; display: block;
+}
+.t_list {
+	width: 50%; margin-bottom: 100px; float: left; display: block;
+}
+.place_gr_cont {
+	overflow: auto;
+}
+.place_gr_cont h1 {
+	padding: 0px 30px 30px;
+}
+.place_li_cont h1 {
+	padding: 0px 30px 30px;
+}
+.place_gr_cont * {
+	transition:0.3s;
+}
+.place_gr_cont .pg {
+	padding: 30px; width: 50%; overflow: hidden; float: left; position: relative; min-height: 300px; max-height: 300px; background-size: cover !important;
+}
+.place_gr_cont .pg img {
+	left: 0px; top: 0px; width: 100%; position: absolute;
+}
+.place_gr_cont .pg h2 {
+	color: rgb(255, 255, 255); font-size: 26px; margin-top: 0px;
+}
+.place_gr_cont .pg h2 span {
+	margin: 20px 0px; width: 80px; height: 1px; display: block;
+}
+.place_gr_cont .pg span {
+	color: rgb(255, 255, 255); line-height: 26px; font-family: roboto; font-size: 16px; font-weight: 300;
+}
+.place_gr_cont .style_one.pg {
+	transition:0.3s;
+}
+.place_gr_cont .style_two.pg {
+	background: rgb(33, 141, 234); transition:0.3s;
+}
+.place_gr_cont .style_two.pg h2 span {
+	background: rgb(255, 255, 255);
+}
+.place_gr_cont .style_three.pg {
+	background: rgb(27, 32, 39);
+}
+.place_gr_cont .style_three.pg h2 span {
+	background: rgb(33, 141, 234);
+}
+.place_gr_cont .style_one.pg h2 span {
+	background: rgb(33, 141, 234);
+}
+.place_gr_cont .bg_one.style_one.pg {
+	background: url("http://nz-store.org/skripsiku/assets/home/pl1.jpg"); transition:0.3s;
+}
+.place_gr_cont .bg_two.style_one.pg {
+	background: url("http://nz-store.org/skripsiku/assets/home/pl2.jpg"); transition:0.3s;
+}
+.place_gr_cont .bg_three.style_one.pg {
+	background: url("http://nz-store.org/skripsiku/assets/home/pl3.jpg"); transition:0.3s;
+}
+.place_gr_cont .pg:hover {
+	background: rgb(255, 255, 255) !important; transition:0.3s; cursor: pointer;
+}
+.place_gr_cont .pg:hover h2 {
+	transition:0.3s; color: rgb(33, 141, 234);
+}
+.place_gr_cont .pg:hover h2 span {
+	background: rgb(33, 141, 234); transition:0.3s;
+}
+.place_gr_cont .pg:hover span {
+	transition:0.3s; color: rgb(3, 1, 2);
+}
+.more_btn {
+	margin: 30px auto; padding: 10px 20px; border-radius: 3px; border: 2px solid rgb(203, 203, 203); border-image: none; width: 150px; text-align: center; color: rgb(203, 203, 203); clear: both; display: block;
+}
+.more_btn:hover {
+	background: rgb(33, 141, 234); border-color: rgb(33, 141, 234); color: rgb(255, 255, 255); text-decoration: none;
+}
+.pg:hover .dar_bg_frid {
+	background: rgb(255, 255, 255);
+}
+.places_cat {
+	padding: 0px;
+}
+.places_cat li {
+	list-style: none;
+}
+.places_cat li a {
+	padding: 12px 15px; color: rgb(255, 255, 255); border-bottom-color: rgba(0, 67, 124, 1); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.places_cat li a:hover {
+	background: rgb(33, 141, 234); color: rgb(255, 255, 255); border-bottom-color: rgb(33, 141, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.places_cat li a i {
+	margin-right: 15px;
+}
+.tag {
+	padding: 15px; margin-top: 30px;
+}
+.tag h3 {
+	color: rgb(255, 255, 255); margin-bottom: 20px;
+}
+.tag ul {
+	padding: 0px;
+}
+.tag ul li {
+	list-style: none; margin: 0px 1px 7px; display: inline-block;
+}
+.tag ul li a {
+	padding: 6px 14px; border-radius: 40px; border: 1px solid rgb(33, 141, 234); border-image: none; display: block;
+}
+.tag ul li a:hover {
+	background: rgb(33, 141, 234); color: rgb(255, 255, 255);
+}
+.dar_bg_frid {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 2;
+}
+.p_cont {
+	position: relative; z-index: 99;
+}
+.place_li_cont {
+	
+}
+.place_li_cont .style_list {
+	margin-bottom: -1px; position: relative;
+}
+.place_li_cont .style_list img {
+	margin: 14px; border-radius: 3px; float: left; display: block; max-width: 200px;
+}
+.place_li_cont .style_list div h2 {
+	color: rgb(51, 51, 51); font-size: 26px;
+}
+.place_li_cont .style_list div h2 a {
+	transition:0.3s;
+}
+.place_li_cont .style_list div h2 a:hover {
+	transition:0.3s; color: rgb(51, 51, 51); text-decoration: none;
+}
+.place_li_cont .style_list div h2 span {
+	background: rgb(33, 141, 234); margin: 20px 0px; width: 80px; height: 1px; display: block;
+}
+.place_li_cont .style_list div span {
+	color: rgb(51, 51, 51); line-height: 26px; font-family: roboto; font-size: 16px; font-weight: 300; margin-bottom: 14px; display: block;
+}
+.place_li_cont .style_list .con {
+	overflow: hidden; border-top-color: rgb(229, 229, 229); border-bottom-color: rgb(229, 229, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.place_li_cont .comm i {
+	margin-right: 10px; float: left; display: block;
+}
+.list_dia {
+	top: 20px; width: 40%; right: 0px; position: absolute;
+}
+.list_dia .ld {
+	margin: 0px 10px; width: 100px; float: right;
+}
+.list_dia .circle {
+	margin-right: 10px;
+}
+.list_dia span {
+	line-height: 32px !important; font-size: 14px !important;
+}
+.content_li {
+	padding-right: 30px; margin-left: 240px; float: none;
+}
+.style_list.pg {
+	transition:0.3s;
+}
+.style_list.pg:hover {
+	background: rgb(249, 249, 249); transition:0.3s;
+}
+.page_info ul {
+	padding: 0px;
+}
+.blog_cat {
+	padding: 0px 30px; margin-top: 35px; margin-bottom: 20px;
+}
+.blog_cat li {
+	list-style: none; padding: 0px; display: inline-block;
+}
+.blog_cat li a {
+	background: rgba(255, 255, 255, 0); padding: 8px 16px; border-radius: 100px; border: 1px solid rgb(33, 141, 234); border-image: none;
+}
+.blog_cat li a.active {
+	background: rgb(33, 141, 234); color: rgb(255, 255, 255);
+}
+.blog_cat li span {
+	color: rgb(255, 255, 255);
+}
+.post {
+	
+}
+.p_style_one.post {
+	background: url("http://nz-store.org/skripsiku/assets/home/blog_post_bg.jpg"); padding: 90px;
+}
+.p_style_one.post .post_info {
+	background: rgb(255, 255, 255); padding: 20px;
+}
+.p_style_one.post h2 {
+	margin-top: 0px;
+}
+.p_style_one.post h2 span {
+	background: rgb(33, 141, 234); margin: 20px 0px; width: 100px; height: 1px; display: block;
+}
+.p_style_one.post .p_text {
+	
+}
+.p_style_one.post .p_footer {
+	
+}
+.p_style_one.post .p_footer ul {
+	padding: 0px; margin-top: 18px;
+}
+.p_style_one.post .p_footer ul li {
+	list-style: none; padding: 10px 20px 0px 0px; display: inline-block;
+}
+.p_style_one.post .p_footer ul li a i {
+	margin: 0px 8px 0px 0px; color: rgb(197, 197, 197); font-size: 13px; display: inline-block;
+}
+.vdk.p_style_one.post {
+	background: url("http://nz-store.org/skripsiku/assets/home/blog_post_vdk.jpg") 0% 0% / cover;
+}
+.post {
+	
+}
+.p_style_two.post {
+	background: url("http://nz-store.org/skripsiku/assets/home/blog_post_two_bg.jpg") right top / cover; padding: 0px;
+}
+.p_style_two.post .post_info {
+	background: rgb(255, 255, 255); padding: 30px; width: 50%; position: relative;
+}
+.p_style_two.post h2 {
+	margin-top: 0px;
+}
+.p_style_two.post h2 span {
+	background: rgb(33, 141, 234); margin: 20px 0px; width: 100px; height: 1px; display: block;
+}
+.p_style_two.post .p_text {
+	
+}
+.p_style_two.post .p_footer {
+	
+}
+.p_style_two.post .p_footer ul {
+	padding: 0px; margin-top: 18px;
+}
+.p_style_two.post .p_footer ul li {
+	list-style: none; padding: 10px 20px 0px 0px; display: inline-block;
+}
+.p_style_two.post .post_info .arrow {
+	border-width: 14px; border-style: solid; border-color: rgba(255, 0, 0, 0) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0) rgba(255, 255, 255, 1); padding: 0px !important; border-image: none; top: 0px; width: 0px; height: 0px; right: -28px; margin-top: 50px; position: absolute;
+}
+.p_style_two.post .p_footer ul li a i {
+	margin: 0px 8px 0px 0px; color: rgb(197, 197, 197); font-size: 13px; display: inline-block;
+}
+.post {
+	
+}
+.p_style_three.post {
+	background: url("http://nz-store.org/skripsiku/assets/home/blog_post_two_bg.jpg") 0% 0% / cover; padding: 0px;
+}
+.p_style_three.post .post_info {
+	background: rgb(255, 255, 255); padding: 30px; position: relative;
+}
+.p_style_three.post h2 {
+	margin-top: 0px;
+}
+.p_style_three.post h2 span {
+	background: rgb(33, 141, 234); margin: 20px 0px; width: 100px; height: 1px; display: block;
+}
+.p_style_three.post .p_text {
+	
+}
+.p_style_three.post .p_footer {
+	
+}
+.p_style_three.post .p_footer ul {
+	padding: 0px; margin-top: 18px;
+}
+.p_style_three.post .p_footer ul li {
+	list-style: none; padding: 10px 20px 0px 0px; display: inline-block;
+}
+.p_style_three.post .post_info .arrow {
+	border-width: 14px; border-style: solid; border-color: rgba(255, 0, 0, 0) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0) rgba(255, 255, 255, 1); padding: 0px !important; border-image: none; top: 0px; width: 0px; height: 0px; right: -28px; margin-top: 50px; position: absolute;
+}
+.p_style_three.post .p_footer ul li a i {
+	margin: 0px 8px 0px 0px; color: rgb(197, 197, 197); font-size: 13px; display: inline-block;
+}
+.open.p_style_one.post {
+	padding-bottom: 0px; position: relative; min-height: 300px;
+}
+.post_info.open {
+	padding-bottom: 0px !important; margin-top: 136px; margin-bottom: 0px;
+}
+.post_info.open h1 {
+	margin: 0px; padding: 0px 10px; line-height: 60px; font-size: 44px;
+}
+.post_info.open h1 span {
+	background: rgb(33, 141, 234); margin: 20px 0px; width: 100px; height: 1px; display: block;
+}
+.post_content {
+	padding: 10px 120px 30px; color: rgb(56, 56, 56); line-height: 32px; font-family: roboto; font-size: 16px; font-weight: 300;
+}
+.Subscribe {
+	background: rgb(33, 141, 234); margin: 40px 0px; padding: 10px;
+}
+.Subscribe div {
+	padding: 20px; border: 7px solid rgb(255, 255, 255); border-image: none;
+}
+.Subscribe div h2 {
+	margin: 0px; text-align: center; color: rgb(255, 255, 255);
+}
+.Subscribe div form {
+	margin: 20px auto 10px; max-width: 500px;
+}
+.Subscribe div form input {
+	padding: 0px 10px; border-radius: 3px; border: 0px currentColor; border-image: none; font-size: 14px; margin-right: 10px; min-width: 370px;
+}
+.Subscribe div form button {
+	
+}
+.post_content .p_footer {
+	
+}
+.post_content .p_footer ul {
+	padding: 0px;
+}
+.post_content .p_footer ul li {
+	list-style: none; padding: 0px 30px 0px 0px; display: inline-block;
+}
+.post_content .p_footer ul li a {
+	
+}
+.post_content .p_footer ul li a i {
+	color: rgb(190, 190, 190); padding-right: 10px; font-size: 13px;
+}
+.author {
+	background: rgb(241, 241, 241); padding: 20px 120px; overflow: hidden;
+}
+.author img {
+	border-radius: 100px; width: 95px; margin-right: 30px; float: left; display: block;
+}
+.author a {
+	font-size: 26px; font-weight: 300; margin-bottom: 10px; display: block;
+}
+.author span {
+	
+}
+.open.reviews {
+	
+}
+.open.reviews h4 {
+	padding: 50px 120px 0px;
+}
+.open.reviews .rev {
+	padding: 30px 120px;
+}
+.open.reviews .add_comment {
+	padding: 0px 120px 40px;
+}
+.open.reviews .add_comment h4 {
+	padding: 35px 0px 20px;
+}
+.fourzerofour {
+	background: url("../img/404bg.jpg") 0% 0% / cover;
+}
+.fourzerofour div {
+	margin: 100px auto; width: 80%; text-align: center; max-width: 760px;
+}
+.fourzerofour div img {
+	width: 100%; max-width: 731px;
+}
+.fourzerofour div span {
+	color: rgb(255, 255, 255); font-family: roboto; font-size: 22px; font-weight: 300; margin-top: -50px; margin-bottom: 40px; display: block;
+}
+.fourzerofour div a {
+	
+}
+.affix {
+	top: 60px; position: fixed; max-width: 300px;
+}

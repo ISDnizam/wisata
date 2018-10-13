@@ -1,0 +1,51 @@
+.menu-btn {
+	padding: 4px 9px; border-radius: 100px; transition:0.3s; left: 30px; top: 30px; width: 40px; height: 40px; color: rgb(255, 255, 255); font-size: 21px; display: block; position: fixed; z-index: 99999999;
+}
+.inned .menu-btn {
+	color: rgb(255, 255, 255);
+}
+.menu-btn span {
+	background: rgb(33, 141, 234); padding: 0px 5px; border-radius: 100px; border: 2px solid currentColor; border-image: none; left: 19px; width: 20px; height: 20px; color: rgb(255, 255, 255); font-size: 11px; position: absolute;
+}
+.menu-btn:hover span {
+	display: none;
+}
+.menu-btn:hover {
+	background: rgb(33, 141, 234); padding: 4px 9px; border-radius: 100px; transition:0.3s; left: 30px; top: 30px; width: 40px; height: 40px; color: rgb(255, 255, 255); font-size: 21px; display: block; position: fixed; cursor: pointer;
+}
+.pushy {
+	background: rgb(10, 106, 189); top: 0px; width: 250px; height: 100%; overflow: auto; position: fixed; z-index: 9999; -webkit-overflow-scrolling: touch;
+}
+.pushy-left {
+	transform: translate3d(-250px, 0px, 0px); -webkit-transform: translate3d(-250px, 0, 0); -o-transform: translate3d(-250px, 0, 0); -moz-transform: translate3d(-250px, 0, 0);
+}
+.pushy-open {
+	transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0);
+}
+.container-push {
+	
+}
+.push-push {
+	
+}
+.pushy {
+	transition:transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99); -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99); -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
+}
+#container {
+	transition:transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99); -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99); -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
+}
+.push {
+	transition:transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99); -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99); -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
+}
+.site-overlay {
+	display: none;
+}
+.pushy-active .site-overlay {
+	animation:fade 500ms; left: 0px; top: 0px; right: 0px; bottom: 0px; display: block; position: fixed; z-index: 9998; background-color: rgba(255, 255, 255, 0.7); -webkit-animation: fade 500ms; -o-animation: fade 500ms; -moz-animation: fade 500ms;
+}
+@media screen and (max-width:768px)
+{
+.pushy {
+	font-size: 1em;
+}
+}

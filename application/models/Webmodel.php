@@ -144,8 +144,6 @@ Class Webmodel extends CI_Model
 		public function get_ratings($id=false, $limit=false){
 		$this->db->select('*');
 		$this->db->from('module_ratings');
-		$this->db->join('module_users', 'module_users.id=module_ratings.id_users');
-
 		$this->db->where('module_ratings.id_wisata', $id);
 		$this->db->order_by('module_ratings.id', 'desc');
 		if($limit){

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 13, 2018 at 03:58 AM
+-- Generation Time: Oct 14, 2018 at 02:05 PM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.7
 
@@ -97,7 +97,7 @@ INSERT INTO `module_images` (`id`, `id_wisata`, `foto`) VALUES
 CREATE TABLE `module_ratings` (
   `id` int(11) NOT NULL,
   `id_wisata` int(11) NOT NULL,
-  `id_users` int(11) NOT NULL,
+  `name` varchar(110) NOT NULL DEFAULT '',
   `review` text NOT NULL,
   `rating` int(11) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
@@ -107,9 +107,10 @@ CREATE TABLE `module_ratings` (
 -- Dumping data for table `module_ratings`
 --
 
-INSERT INTO `module_ratings` (`id`, `id_wisata`, `id_users`, `review`, `rating`, `date`) VALUES
-(1, 2, 2, 'dssdds', 4, '2018-10-11 09:11:41'),
-(2, 2, 2, 'dsdsds', 1, '2018-10-11 09:12:03');
+INSERT INTO `module_ratings` (`id`, `id_wisata`, `name`, `review`, `rating`, `date`) VALUES
+(1, 2, '2', 'dssdds', 4, '2018-10-11 09:11:41'),
+(2, 2, '2', 'dsdsds', 1, '2018-10-11 09:12:03'),
+(3, 15, 'nizaammmmx', 'n', 1, '2018-10-14 12:04:23');
 
 -- --------------------------------------------------------
 
@@ -176,7 +177,7 @@ INSERT INTO `module_wisata` (`id`, `id_users`, `id_category`, `name`, `address`,
 (11, 4, 1, 'zzzdsdfdfsxxx', 'dsfdsdfsdfs', 34344, 'sgdgsdgs', '434343', '343434', 'Screen_Shot_2018-10-04_at_00_09_30.png', '2018-10-04 20:42:44', 0, 'decline'),
 (13, 1, 2, 'Umbul Ponggok', 'Jl. Delanggu- Polanharjo No.Ds, Jeblogan, Ponggok, Polanharjo, Kabupaten Klaten, Jawa Tengah ', 57474, 'dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi ', '-7.6138103', '110.633676', 'Umbul-Ponggok-Lanang.jpg', '2018-10-13 06:52:51', 0, 'publish'),
 (14, 1, 1, 'Sop Ayam Pak Slamet', 'Jalan Klaten - Jatinom, Gedaren, Jatinom, Dusun 1, Manjungan, Ngawen, Kabupaten Klaten, Jawa Tengah', 57481, 'desckripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi', '-7.2572138', '110.3861437', 'Warung-Sop-Ayam-Pak-Slamet-Klaten-Dari-Luar.jpg', '2018-10-13 07:04:16', 0, 'publish'),
-(15, 1, 4, 'Rowo Jombor Klaten', 'Jl. Rw. Jombor, Waduk Jombor, Krakitan, Bayat, Kabupaten Klaten, Jawa Tengah', 57462, 'dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi ', '-7.7520067', '110.6047295', 'waduk-rowo-jombor-jawa-tengah.jpg', '2018-10-13 07:09:37', 1, 'publish'),
+(15, 1, 4, 'Rowo Jombor Klaten', 'Jl. Rw. Jombor, Waduk Jombor, Krakitan, Bayat, Kabupaten Klaten, Jawa Tengah', 57462, 'dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi dekripsi ', '-7.7520067', '110.6047295', 'waduk-rowo-jombor-jawa-tengah.jpg', '2018-10-13 07:09:37', 8, 'publish'),
 (16, 1, 3, 'Candi Plaosan Klaten', 'Jl. Rw. Jombor, Waduk Jombor, Krakitan, Bayat, Kabupaten Klaten, Jawa Tengah', 57462, 'deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi deskripsi ', '-7.7405772', '110.5024144', 'Sejarah-Mitos-Tiket-Masuk-Candi-Plaosan-Klaten.jpg', '2018-10-13 07:29:38', 1, 'publish');
 
 --
@@ -245,7 +246,7 @@ ALTER TABLE `module_images`
 -- AUTO_INCREMENT for table `module_ratings`
 --
 ALTER TABLE `module_ratings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `module_users`

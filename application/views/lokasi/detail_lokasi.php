@@ -63,7 +63,6 @@
 		<br>	<?php echo $ro->review; ?>
 		<br><br>
 	<?php }?>
-	<?php if($profil){ ?>
 		<?php echo form_open('lokasi/send_review'); ?>
 		<input type="hidden" name="id_wisata" value="<?php echo $detail->id_wisata;?>">
 		Berika Rating untuk tempat ini : 
@@ -76,6 +75,11 @@
                   <option value="5">5</option>
                 </select>
               </div> 
+			<br>
+			<p class="comment-form-author">
+				<label for="author">Nama <span class="required">*</span></label> 
+				<input id="author" name="name" type="text" class="form-control" value="" size="30" maxlength="245" aria-required='true' required='required'/>
+			</p>
 
               	<p class="comment-form-comment"><label for="comment">Review</label>
 			<textarea id="comment" name="review" class="form-control" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p>
@@ -83,8 +87,6 @@
 				<input name="submit" class="btn btn-success" type="submit" id="submit" class="submit" value="Post Review"/> 
 			</p> 
 			<?php echo form_close();?>
-      <?php } ?>
-
           </div>
 </div>
 </div>

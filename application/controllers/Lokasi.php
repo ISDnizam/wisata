@@ -83,7 +83,7 @@ class Lokasi extends CI_Controller {
     $id_wisata= $this->input->post('id_wisata');
     if($id_wisata){
       $review = array('id_wisata'=> $id_wisata,
-      'id_users'=> $this->session->userdata('id'),
+      'name'=> $this->input->post('name'),
       'review'=> $this->input->post('review'),
       'rating'=> $this->input->post('rating'),
       );

@@ -10,6 +10,11 @@
 					<p>
 						<?php echo $detail->description;?>
 					</p>
+
+					<br>
+				<a class="btn btn-primary" href="<?php echo base_url();?>map/get_direction?from=Klaten&to=<?php echo $detail->lat;?>, <?php echo $detail->lng;?>" target="_blank"> Lihat Rute Lokasi
+				</a>
+					<br>
 					<br>
 					<i class="fa fa-eye"></i>
 					Dilihat <?php echo $detail->counter;?> kali

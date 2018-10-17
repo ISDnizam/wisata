@@ -14,7 +14,16 @@ class Map extends CI_Controller {
   }
   $this->load->view('maps', $data);
   }
- }
 
+  function get_direction(){
+  $data['profil'] = $this->Webmodel->get_profil()->row();
+  $data['list_lokasi'] = $this->Webmodel->get_listlokasi()->result();
+  $this->load->view('get_direction', $data);
+  }
+
+  
+
+
+ }
 ?>
 

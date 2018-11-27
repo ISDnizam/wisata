@@ -81,10 +81,7 @@ Class Webmodel extends CI_Model
 
 	public function get_detaillokasi($id)
 	{
-		$this->db->select('*');
-		$this->db->select('module_wisata.id as id_wisata');
-		$this->db->select('module_wisata.foto as foto');
-		$this->db->select('module_wisata.name as title');
+		$this->db->select('*,module_wisata.id as id_wisata, module_wisata.foto as foto, module_wisata.name as title,module_wisata.address as address');
 		$this->db->from('module_wisata');
 		$this->db->join('module_category', 'module_wisata.id_category=module_category.id');
 		$this->db->join('module_users', 'module_wisata.id_users=module_users.id');

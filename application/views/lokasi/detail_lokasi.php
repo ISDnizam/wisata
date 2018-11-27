@@ -60,10 +60,9 @@
 	<?php foreach ($reviews as $ro) { ?>
 		<b>	<?php echo $ro->name; ?></b> <small>(<?php echo tgl_indo($ro->date);?>)
 			<br>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
+			<?php for ($x = 1; $x <= $ro->rating; $x++) {
+    		echo "<i class='fa fa-star'></i>";
+			} ?>
 		</small>
 		<br>	<?php echo $ro->review; ?>
 		<br><br>

@@ -105,7 +105,6 @@
    <script type="text/javascript" src="<?php echo base_url();?>assets/js/waypoints.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.counterup.min.js"></script>        
 
-        <script type="text/javascript" src="<?php echo base_url();?>assets/js/dev-settings.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/dev-loaders.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/dev-layout-default.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>assets/js/demo.js"></script>

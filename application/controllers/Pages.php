@@ -45,6 +45,7 @@ class Pages extends CI_Controller {
     $this->email->to($email);
     $this->email->subject("Verifikasi Akun ");
     $this->email->message($msg);
+    $send = $this->email->send();
     $message =  '<div class="alert alert-success">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
       Pendaftaran anda berhasil. silahkan cek email anda untuk men verifikasi akun anda !
@@ -114,10 +115,10 @@ class Pages extends CI_Controller {
 
 public function verification($key){
  $this->load->helper('url');
- $this->webmodel->changeActiveState($key);
+ $this->Webmodel->changeActiveState($key);
   $message =  '<div class="alert alert-danger">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
-     Username atau password yang anda masukan salah
+    Akun anda telah berhasil di verifikasi. silahkan masukan username dan password anda
       </div>';
       $this->session->set_flashdata('message', $message);
       redirect('pages/login');
@@ -125,7 +126,7 @@ public function verification($key){
   public function password()    {
     if($this->session->userdata('access')=='user')
     {
-      $data['profil'] = $this->webmodel->get_profil()->row();  
+      $data['profil'] = $this->Webmodel->get_profil()->row();  
       $this->load->view('data/v_atas');
       $this->load->view('data/v_samping', $data);
       $this->load->view('member/v_password',$data);    

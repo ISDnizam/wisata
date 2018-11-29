@@ -157,7 +157,6 @@ Class Webmodel extends CI_Model
 		);
 		$this->db->where('password', $key);
 		$this->db->update('module_users', $data);
-
 		return true;
 	}
 

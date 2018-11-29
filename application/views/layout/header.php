@@ -36,10 +36,10 @@
       { 
         if($profil->foto==''){
           echo '<DIV class="avatar"><img src="'.base_url().'assets/gallery/user11.png"><SPAN> <a href="'.base_url().'pages/logout"><i class="fa fa-power-off"></i></a></SPAN></DIV>
-        <A class="log_btn" href="'.base_url().''.$access.'">'.$name.'</A></DIV>';
+          <A class="log_btn" href="'.base_url().''.$access.'">'.$name.'</A></DIV>';
         }else{
-        echo '<DIV class="avatar"><img src="'.base_url().'assets/gallery/'.$profil->foto.'"><SPAN> <a href="'.base_url().'pages/logout"><i class="fa fa-power-off"></i></a></SPAN></DIV>
-        <A class="log_btn" href="'.base_url().''.$access.'">'.$name.'</A></DIV>';
+          echo '<DIV class="avatar"><img src="'.base_url().'assets/gallery/'.$profil->foto.'"><SPAN> <a href="'.base_url().'pages/logout"><i class="fa fa-power-off"></i></a></SPAN></DIV>
+          <A class="log_btn" href="'.base_url().''.$access.'">'.$name.'</A></DIV>';
         }
       }
       else
@@ -48,73 +48,59 @@
         <A class="log_btn" href="" data-backdrop="false" data-target="#gabung" data-toggle="modal">Daftar</A></DIV>';
       } 
       ?>
-          <UL class="side_menu">
-            <LI><A href="<?php echo base_url();?>"><I class="fa fa-bookmark"></I>Home</A></LI>
-            <li><A href="<?php echo base_url();?>map"><I class="fa fa-map-marker"></I>Maps</A></LI>
-            <LI><A class="animsition-link" href="<?php echo base_url();?>lokasi"><I class="fa fa-road"></I>Lokasi Wisata</A></LI>
-          </UL>
+      <UL class="side_menu">
+        <LI><A href="<?php echo base_url();?>"><I class="fa fa-bookmark"></I>Home</A></LI>
+        <li><A href="<?php echo base_url();?>map"><I class="fa fa-map-marker"></I>Maps</A></LI>
+          <LI><A class="animsition-link" href="<?php echo base_url();?>lokasi"><I class="fa fa-road"></I>Lokasi Wisata</A></LI>
+        </UL>
       </NAV>
 
-          <!-- Site Overlay -->
-          <div class="site-overlay"></div>
-          <div id="container" style="width:100%">
-            <div class="top_promo_block" id="promo_head" <?php if($this->uri->segment(2)=='detail')
-                { ?> style="background: url(<?php echo base_url();?>assets/gallery/<?php echo $detail->foto;?>); width:100%; " <?php }elseif($this->uri->segment(1)==''){ ?>
-             
-                  <?php } ?>>
-              <div class="menu-btn">&#9776;</div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="header_promo">
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="start_descrition">
-                <h1 style="margin-bottom: -30px ">
-                <b><?php if($this->uri->segment(2)=='detail')
-                { 
-                  echo $detail->title;
+      <!-- Site Overlay -->
+      <div class="site-overlay"></div>
+      <div id="container" style="width:100%">
+        <div class="top_promo_block" id="promo_head" >
+          <?php if($this->uri->segment(2)=='detail') { ?>
+          <img src="<?php echo base_url();?>assets/gallery/<?php echo $detail->foto;?>" style="width:100%;height: 100%">
+          <?php } ?>
+          <div class="menu-btn">&#9776;</div>
+          <div class="start_descrition">
+            <h1 style="margin-bottom: -30px ">
+              <b><?php if($this->uri->segment(2)=='detail') { 
+                echo $detail->title;
                 }else{
                 echo 'Sistem informasi geografis';} ?></b>
                 <span></span></h1>
-               <?php if($this->uri->segment(2)=='detail'){?>
-                <span>
-                <?php echo $detail->category;?></span>
-                <?php }else{?>
-                <span>
-                Lokasi-Lokasi obyek wisata yang ada di Kabupaten Klaten</span>
-                <div class="search_promo">
-                  <div class="input-group">
-                   <div class="input-group-btn btn_cat">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                      <span>Kategori Wisata<span class="caret"></span></span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-right place_dd">
-                      <?php foreach ($kategori as $ro) {?>
-                      <li><a href="<?php echo base_url();?>lokasi/index/<?php echo $ro->id;?>" ><i class="fa fa-play"></i><?php echo $ro->category;?></a></li>
-                      <? } ?>
-                      <li><a href="<?php echo base_url();?>lokasi"><i class="fa fa-play"></i>Semua Kategori</a></li>
-                    </ul>
-                  </div>
-                  <div class="input-group-btn btn_promo_search">
-                    <button type="button" class="btn btn-success" onclick="window.location.href">Search</button>
-                  </div>
+                <?php if($this->uri->segment(2)=='detail'){?>
+                  <span>
+                    <?php echo $detail->category;?></span>
+                  <?php }else{?>
+                    <span>
+                    Lokasi-Lokasi obyek wisata yang ada di Kabupaten Klaten</span>
+                    <div class="search_promo">
+                      <div class="input-group">
+                       <div class="input-group-btn btn_cat">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                          <span>Kategori Wisata<span class="caret"></span></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right place_dd">
+                          <?php foreach ($kategori as $ro) {?>
+                            <li><a href="<?php echo base_url();?>lokasi/index/<?php echo $ro->id;?>" ><i class="fa fa-play"></i><?php echo $ro->category;?></a></li>
+                          <? } ?>
+                          <li><a href="<?php echo base_url();?>lokasi"><i class="fa fa-play"></i>Semua Kategori</a></li>
+                        </ul>
+                      </div>
+                      <div class="input-group-btn btn_promo_search">
+                        <button type="button" class="btn btn-success" onclick="window.location.href">Search</button>
+                      </div>
+                    </div>
+                  <?php }?>
                 </div>
-                <?php }?>
+              </div>
+              <div class="scroll_block">
+                <?php if($uri1){ ?>
+                  <a href="#content">
+                    <img src="<?php echo site_url();?>assets/icon/scroll.png" class="animated infinite bounce" alt="#">
+                  </a>
+                <?php } ?>
               </div>
             </div>
-            <div class="scroll_block">
-            <?php if($uri1){ ?>
-            <a href="#content">
-              <img src="<?php echo site_url();?>assets/icon/scroll.png" class="animated infinite bounce" alt="#">
-            </a>
-            <?php } ?>
-            </div>
-          </div>
-
-
-
-

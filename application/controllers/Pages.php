@@ -116,7 +116,7 @@ class Pages extends CI_Controller {
 public function verification($key){
  $this->load->helper('url');
  $this->Webmodel->changeActiveState($key);
-  $message =  '<div class="alert alert-danger">
+  $message =  '<div class="alert alert-success">
       <button type="button" class="close" data-dismiss="alert">&times;</button>
     Akun anda telah berhasil di verifikasi. silahkan masukan username dan password anda
       </div>';

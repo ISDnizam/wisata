@@ -10,6 +10,8 @@ class Home extends CI_Controller {
   function index(){     
         $data['profil'] = $this->Webmodel->get_profil()->row();
         $data['kategori'] = $this->Webmodel->get_category()->result();
+        $data['list_lokasi'] = $this->Webmodel->get_listlokasi('', 9)->result();
+
         $this->load->view('layout/header',$data);
         $this->load->view('home',$data);
   			$this->load->view('layout/footer',$data);

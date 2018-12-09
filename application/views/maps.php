@@ -13,31 +13,41 @@
 <link rel="stylesheet" type="text/css" href="http://city1.wpmix.net/wp-content/plugins/revslider5/public/assets/css/settings.css" media="screen" />
 
 <META name="GENERATOR" content="MSHTML 11.00.9600.16476"></HEAD> 
+<?php $uri1 = $this->uri->segment(1);
+$name = $this->session->userdata('name');
+$access = $this->session->userdata('access'); ?>
 <body onload="initialize()" class="inner_page innerpage">
-	<div class="bg_parallax">
-    <div class="container-fluid header inner_head">
+  <div class="bg_parallax">
+    <div class="container-fluid header inner_head" style="box-shadow:0px 1px 0px rgba(154, 9, 9, 0.59); z-index: 999;">
       <div class="fixed_w">
         <div class="row">
           <div class="col-md-12">
-            <div class="pull-right">
-              <div class="dropdown"><br>
-              <button class="btn btn-danger active dropdown-toggle"  type="button" id="dropdownMenuButton" style="margin-top:-10px;" type="button" data-toggle="dropdown">
-                Menu
-              </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="<?php echo base_url();?>">Home</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url();?>map">Maps</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url();?>lokasi">Lokasi Wisata</a></li>
-                </div>
+            <ul class="nav navbar-nav">
+              <LI><A href="<?php echo base_url();?>" style="color:white">Home</A></LI>
+              <li><A href="<?php echo base_url();?>map" style="color:white">Maps</A></LI>
+                <LI><A class="animsition-link" href="<?php echo base_url();?>lokasi" style="color:white">Lokasi Wisata</A></LI>
+              </UL>
+              <div class="pull-right">
+                <ul class="nav navbar-nav navbar-right">
+                  <?php if($name){  ?>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white" > <I class="fa fa-user"></I> <?php echo $name;?> <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?php echo base_url();?><?php echo $access;?>" >Profil</a></li> 
+                        <li><a href="<?php echo base_url();?>pages/logout">Logout</a></li>
+                      </ul>
+                    </li>
+                  <?php }else{ ?>
+                    <li><a   href="<?php echo base_url();?>pages/login" style="color:white" ><I class="fa fa-key"></I> Login</a></li>
+                    <li><a  style="color:white"  data-backdrop="false" data-target="#gabung" data-toggle="modal"> <I class="fa fa-users"></I> Daftar</a></li>
+                  <?php } ?>
+                </ul>
               </div>
-          	</DIV>							
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-
 
 <DIV class="map" id='map'></DIV>
 <script>

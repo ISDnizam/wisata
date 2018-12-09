@@ -4,7 +4,7 @@
   <div class="fixed_w">
     <h2><?php echo $title;?></h2>
     <div class="row">
-    <?php foreach ($list as $row) { ?>
+    <?php if($list){ foreach ($list as $row) { ?>
       <div class="col-md-4 place_index_item  wow bounceInLeft">
         <div class="place_inn">
           <img src="<?php echo base_url();?>assets/gallery/<?php echo $row->foto;?>" alt="#" style="min-height:200px; max-height:200px">
@@ -23,7 +23,10 @@
           </div>
         </div>
       </div>
-    <?php } ?>
+    <?php } 
+     }else{ 
+      echo '<div class="col-md-12"><h3><center>Lokasi wisata tidak ditemukan</center></h3></div>'; 
+     } ?>
     </div>
      <div class="pull-right"><?php echo $halaman;?>   </div>
     <!-- <a href="<?php echo base_url();?>data/list_lokasi" class="btn btn-success va">View all places</a> -->

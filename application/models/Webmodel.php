@@ -30,7 +30,7 @@ Class Webmodel extends CI_Model
 		return $data;   	
 	}
 
-	public function get_listlokasi($id_category=false)
+	public function get_listlokasi($id_category=false, $limit=false)
 	{
 		$this->db->select('*');
 		$this->db->select('module_wisata.id as id_wisata');
@@ -40,7 +40,9 @@ Class Webmodel extends CI_Model
 			$this->db->where('module_wisata.id_category', $id_category);
 		}
 		$this->db->where('module_wisata.status', 'publish');
-
+		if($limit){
+		$this->db->limit($limit);
+		}
 		$data = $this->db->get();
 		return $data;   	
 	}
